@@ -13,6 +13,7 @@
 # Bunch of symlinks
 
 ln -sfv "$DOTFILES_DIR/R/.Renviron" ~
+ln -sfv "$DOTFILES_DIR/R/.Rprofile" ~
 
 #if [ "$(uname)" == "Darwin" ]; then
 #    ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
