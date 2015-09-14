@@ -12,8 +12,11 @@
 
 # Bunch of symlinks
 
+# R
 ln -sfv "$DOTFILES_DIR/R/.Renviron" ~
 ln -sfv "$DOTFILES_DIR/R/.Rprofile" ~
+# Sublime Text 3
+ln -sfv "$DOTFILES_DIR/sublimeText3" ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 
 #if [ "$(uname)" == "Darwin" ]; then
 #    ln -sfv "$DOTFILES_DIR/etc/mackup/.mackup.cfg" ~
